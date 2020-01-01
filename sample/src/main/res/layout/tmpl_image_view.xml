@@ -62,7 +62,7 @@
             android:textSize="@dimen/larger_text"
             android:visibility="gone" />
     </RelativeLayout>
-
+<!-- Your Code
     <ImageButton
         android:id="@+id/btn_remove"
         android:layout_width="40dp"
@@ -74,7 +74,20 @@
         android:maxHeight="40dp"
         android:maxWidth="40dp"
         android:src="@drawable/ic_close_white_36dp"
-        android:visibility="gone" />
+        android:visibility="gone" /> -->
+    
+    <ImageView
+        android:id="@+id/removeImageBtn"
+        android:src="@drawable/remove_image_icon"
+        android:text="Remove"
+        android:visibility="visible"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/remove_image_button_bg"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp" />
 
 
 </RelativeLayout>
